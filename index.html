@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>AXIONE / CATALOGUE D'APPLICATIONS</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/liens.css" />
+</head>
+
+<body>
+    <div id="bloc_page">
+        <header>
+            <img id="logo" src="images/axione.png" alt="axione" />
+            <h1>Catalogue d'applications</h1>
+            <p><span id="question">Comment avoir un accès ?</span><img id="fleche" src="./images/Right-Arrow-blanc.png" /></p>
+            <a href="https://gdd.axione.fr/" target="_blank"><img id="acces" src="images/diagramme.jpg" alt="Comment avoir un accès?" /></a>
+        </header>
+
+        <div id="corps">
+            <ul>
+                <li id="reseaux"><a class="active">RESEAUX</a></li>
+                <li id="osen"><a>OSEN</a></li>
+                <li id="byes"><a>BYES</a></li>
+                <li id="poc"><a>POC</a></li>
+                <li id="d2m"><a>D2M</a></li>
+                <li id="ftth"><a>FTTH</a></li>
+                <li id="xdsl"><a>XDSL</a></li>
+                <li id="facturation"><a>FACTURATION</a></li>
+                <li id="reporting"><a>REPORTING</a></li>
+                <li id="divers"><a>DIVERS SAS</a></li>
+                <li id="autres"><a>AUTRES</a></li>
+            </ul>
+
+            <section>
+                <div id="section">
+                    <form>
+                        <input type="text" id="search" placeHolder="RT, Wiki, ..." required />
+                        <input type="submit" value="Chercher" />
+                    </form>
+                    <div id="selection"></div>
+
+                    <table id="contenu">
+                        <caption id="caption"></caption>
+                    </table>
+                </div>
+                <div id="footer">
+                    <div id="pied">
+                        <strong>Pour tout problème ou demande, vous pouvez contacter le Helpdesk : </strong><br />
+                        <p> <span class="helpdesk">-Par ticket <a href="https://support.axione.fr">RT</a> dans la file SI,</span>
+                            <br /> <span class="helpdesk">-Par mail à l'adresse : <a href="mailto:exploitation@axionesi.net">exploitation@axionesi.net</a>,</span>
+                            <br /> <span class="helpdesk">-Par téléphone entre 8h et 18h30 au : 0800 740 790 (permanence)</span></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="js/ajax.js"></script>
+        <script src="js/liens.js"></script>
+    </div>
+</body>
+
+</html>
